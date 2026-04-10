@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamerHub — Domina el Juego</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href= "css/estilos.css" />
+</head>
+<body>
+
+<!-- Partículas (canvas) -->
+<canvas id="pcv"></canvas>
+
+<!-- ================================================
+     NAVBAR
+     ================================================ -->
+<nav id="nb">
+  <a href="#" class="nlogo">GAMER<span>HUB</span></a>
+  <ul class="nlinks">
+    <li><a href="#hw">Hardware</a></li>
+    <li><a href="#gm">Juegos</a></li>
+    <li><a href="#pf">Rendimiento</a></li>
+    <li><a href="#pt">Pro Tips</a></li>
+    <li><a href="#cta" class="ncta">Unirse</a></li>
+  </ul>
+</nav>
+
+<!-- ================================================
+     HERO
+     ================================================ -->
+<section id="hero">
+  <div class="hbg" id="hbg"></div>
+  <div class="hov"></div>
+  <div class="hgl"></div>
+
+  <div class="hc">
+    <div class="hey">
+      <div class="heyd"></div>
+      La comunidad gamer más épica de habla hispana
+    </div>
+
+    <h1 class="ht">
+      <span class="a">DOMINA</span>
+      <span class="b">EL JUEGO</span>
+      <span class="c">SIN LÍMITES</span>
+    </h1>
+
+    <p class="hs">
+      Tutoriales de <strong>hardware gamer</strong>, guías pro para los mejores
+      juegos y todo lo que necesitas para llevar tu setup al siguiente nivel.
+    </p>
+
+    <div class="hbtns">
+      <a href="#hw" class="bglow">🎮 Ver Tutoriales</a>
+      <a href="#gm" class="boutline">▶ Explorar Juegos</a>
+    </div>
+
+    <div class="hstats">
+      <div class="hst"><span class="sn" id="c1">0</span><span class="sl">Tutoriales</span></div>
+      <div class="hst"><span class="sn" id="c2">0</span><span class="sl">Juegos</span></div>
+      <div class="hst"><span class="sn" id="c3">0K</span><span class="sl">Gamers</span></div>
+      <div class="hst"><span class="sn">24/7</span><span class="sl">Online</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ndiv"></div>
+
+<!-- ================================================
+     HARDWARE & SETUP
+     ================================================ -->
+<section id="hw" class="sbg">
+  <div class="sbg-img"></div>
+  <div class="sbg-ov"></div>
+  <div class="container">
+
+    <div class="slabel">Hardware & Setup</div>
+    <h2 class="stitle">Monta Tu Setup<br><span>Como Un Pro</span></h2>
+    <p class="ssub">Guías paso a paso para instalar, configurar y optimizar todo tu hardware gamer desde cero.</p>
+
+    <!-- Tutorial destacado -->
+    <div class="fwrap" data-r>
+      <div class="fi">
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=900&auto=format&fit=crop&q=80" alt="Torre Gamer" />
+        <div class="fi-gl"></div>
+        <div class="fi-tag">🔥 Más Popular</div>
+      </div>
+      <div class="fb">
+        <div class="ftag">Tutorial Completo — Nivel Pro</div>
+        <h3 class="ftitle">Cómo Montar una Torre Gamer desde Cero</h3>
+        <p class="fdesc">Desde elegir los componentes hasta el primer encendido. Todo lo que necesitas para armar la PC gaming perfecta.</p>
+        <div class="fsteps">
+          <div class="fstep"><div class="fnum">01</div>Elegir CPU, GPU y motherboard compatibles</div>
+          <div class="fstep"><div class="fnum">02</div>Instalar RAM, SSD y sistema de enfriamiento</div>
+          <div class="fstep"><div class="fnum">03</div>Gestión de cables y primer arranque</div>
+          <div class="fstep"><div class="fnum">04</div>Instalar drivers y optimizar la BIOS</div>
+        </div>
+        <a href="#" class="bglow" style="font-size:11px;padding:12px 26px">Ver Tutorial ›</a>
+      </div>
+    </div>
+
+    <!-- Grid de tutoriales -->
+    <div class="tgrid">
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600&auto=format&fit=crop&q=80" alt="Mando" />
+          <div class="tcov"></div>
+          <span class="tcb">Mandos</span>
+          <span class="tcd de">Fácil</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Instalar y Configurar Mandos</h3>
+          <p class="tcdesc">Xbox, PS5, 8BitDo — conecta cualquier mando y configura controles perfectos para cada juego.</p>
+          <div class="tcfoot"><span>⏱ 15 min</span><span>🎮 Todo tipo</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&auto=format&fit=crop&q=80" alt="Mouse" />
+          <div class="tcov"></div>
+          <span class="tcb">Mouse</span>
+          <span class="tcd dm">Medio</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Mouse Gamer: Setup Perfecto</h3>
+          <p class="tcdesc">DPI, polling rate y software — calibra tu mouse para máxima precisión en FPS competitivo.</p>
+          <div class="tcfoot"><span>⏱ 20 min</span><span>🖱️ FPS/TPS</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1600861195091-690c92f1d2cc?w=600&auto=format&fit=crop&q=80" alt="RGB" />
+          <div class="tcov"></div>
+          <span class="tcb">Estética</span>
+          <span class="tcd de">Fácil</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Cable Management y RGB</h3>
+          <p class="tcdesc">Cables perfectos y sincronización RGB para que tu setup se vea absolutamente increíble.</p>
+          <div class="tcfoot"><span>⏱ 30 min</span><span>✨ Estética</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1588508065123-287b28e013da?w=600&auto=format&fit=crop&q=80" alt="Monitor" />
+          <div class="tcov"></div>
+          <span class="tcb">Monitor</span>
+          <span class="tcd dm">Medio</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Calibrar Monitor 144Hz+</h3>
+          <p class="tcdesc">Configura refresh rate, HDR y G-Sync/FreeSync para imagen y respuesta perfectas.</p>
+          <div class="tcfoot"><span>⏱ 25 min</span><span>🖥️ 1080p–4K</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=80" alt="Audio" />
+          <div class="tcov"></div>
+          <span class="tcb">Audio</span>
+          <span class="tcd de">Fácil</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Headset y Audio Espacial 7.1</h3>
+          <p class="tcdesc">Activa Dolby Atmos o Windows Sonic para escuchar pasos con ventaja real en FPS.</p>
+          <div class="tcfoot"><span>⏱ 15 min</span><span>🎧 FPS/BR</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="tc" data-r>
+        <div class="tcimg">
+          <img src="https://images.unsplash.com/photo-1563207153-f403bf289096?w=600&auto=format&fit=crop&q=80" alt="Cooling" />
+          <div class="tcov"></div>
+          <span class="tcb">Cooling</span>
+          <span class="tcd dh">Avanzado</span>
+        </div>
+        <div class="tcbody">
+          <h3 class="tctitle">Refrigeración Líquida AIO</h3>
+          <p class="tcdesc">Instala un cooler AIO para mantener tu CPU fría y silenciosa bajo cargas extremas.</p>
+          <div class="tcfoot"><span>⏱ 45 min</span><span>🌊 Enthusiast</span><span class="tcarr">→</span></div>
+        </div>
+      </a>
+
+    </div><!-- /tgrid -->
+  </div>
+</section>
+
+<div class="ndiv"></div>
+
+<!-- ================================================
+     JUEGOS
+     ================================================ -->
+<section id="gm" class="sbg">
+  <div class="sbg-img"></div>
+  <div class="sbg-ov"></div>
+  <div class="container">
+
+    <div class="slabel">Juegos</div>
+    <h2 class="stitle">Aprende a Ser<br><span>Un Verdadero Pro</span></h2>
+    <p class="ssub">Guías, builds y estrategias para dominar los juegos más populares. Clic para ir al sitio oficial.</p>
+
+    <!-- Juegos grandes -->
+    <div class="gbig-grid" data-r>
+      <a href="https://www.fortnite.com" target="_blank" rel="noopener" class="gbig">
+        <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=900&auto=format&fit=crop&q=80" alt="Fortnite" />
+        <div class="gbov">
+          <div class="ggen">Battle Royale</div>
+          <div class="gname">FORTNITE</div>
+          <div class="gdesc">Builds, rotaciones y meta actual para llegar al top 1 en cada partida.</div>
+          <div class="gbtn">Jugar Ahora ↗</div>
+        </div>
+        <div class="gcorn">Guía Pro</div>
+      </a>
+
+      <a href="https://www.leagueoflegends.com" target="_blank" rel="noopener" class="gbig">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&auto=format&fit=crop&q=80" alt="League of Legends" />
+        <div class="gbov">
+          <div class="ggen">MOBA</div>
+          <div class="gname">LEAGUE OF LEGENDS</div>
+          <div class="gdesc">Runas, builds e itemización para subir de elo rápidamente en ranked.</div>
+          <div class="gbtn">Jugar Ahora ↗</div>
+        </div>
+        <div class="gcorn">Guía Pro</div>
+      </a>
+    </div>
+
+    <!-- Juegos pequeños -->
+    <div class="gsm-grid" data-r>
+      <a href="https://playvalorant.com" target="_blank" rel="noopener" class="gsm">
+        <img src="https://images.unsplash.com/photo-1614294148960-9aa740632a87?w=600&auto=format&fit=crop&q=80" alt="Valorant" />
+        <div class="gsmov">
+          <div class="gsmname">VALORANT</div>
+          <div class="gsmlink">Guía Pro ↗</div>
+        </div>
+      </a>
+
+      <a href="https://store.steampowered.com/app/730" target="_blank" rel="noopener" class="gsm">
+        <img src="https://images.unsplash.com/photo-1640955014216-75201056c829?w=600&auto=format&fit=crop&q=80" alt="CS2" />
+        <div class="gsmov">
+          <div class="gsmname">CS2</div>
+          <div class="gsmlink">Guía Pro ↗</div>
+        </div>
+      </a>
+
+      <a href="https://www.minecraft.net" target="_blank" rel="noopener" class="gsm">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80" alt="Minecraft" />
+        <div class="gsmov">
+          <div class="gsmname">MINECRAFT</div>
+          <div class="gsmlink">Ver Builds ↗</div>
+        </div>
+      </a>
+
+      <a href="https://www.callofduty.com" target="_blank" rel="noopener" class="gsm">
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&auto=format&fit=crop&q=80" alt="Call of Duty" />
+        <div class="gsmov">
+          <div class="gsmname">CALL OF DUTY</div>
+          <div class="gsmlink">Guía Pro ↗</div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<div class="ndiv"></div>
+
+<!-- ================================================
+     RENDIMIENTO
+     ================================================ -->
+<section id="pf" class="sbg">
+  <div class="sbg-img"></div>
+  <div class="sbg-ov"></div>
+  <div class="container">
+
+    <div class="slabel">Rendimiento</div>
+    <h2 class="stitle">Exprime Cada FPS<br><span>de Tu PC</span></h2>
+    <p class="ssub">Optimizaciones probadas que te dan hasta 40% más rendimiento sin gastar nada.</p>
+
+    <div class="pgrid">
+      <div class="pc" data-r>
+        <span class="pico">⚙️</span>
+        <h3 class="ptitle">Optimización de Windows</h3>
+        <p class="pdesc">Ajusta Windows 10/11 para gaming y reduce la latencia del sistema operativo.</p>
+        <ul class="plist">
+          <li>Activar Modo de Juego</li>
+          <li>Desactivar Xbox Game Bar</li>
+          <li>Plan de energía alto rendimiento</li>
+          <li>Actualizar drivers GPU</li>
+          <li>Desactivar inicio rápido</li>
+        </ul>
+      </div>
+
+      <div class="pc" data-r>
+        <span class="pico">🎮</span>
+        <h3 class="ptitle">Configuración GPU</h3>
+        <p class="pdesc">Ajustes del panel NVIDIA o AMD que mejoran FPS y eliminan el stuttering.</p>
+        <ul class="plist">
+          <li>NVIDIA Reflex / AMD Anti-Lag</li>
+          <li>Limitar FPS a 2× el refresh rate</li>
+          <li>Desactivar V-Sync in-game</li>
+          <li>Modo baja latencia: Ultra</li>
+          <li>Activar G-Sync o FreeSync</li>
+        </ul>
+      </div>
+
+      <div class="pc" data-r>
+        <span class="pico">🌡️</span>
+        <h3 class="ptitle">Control de Temperatura</h3>
+        <p class="pdesc">Mantén hardware frío para evitar thermal throttling en momentos clave.</p>
+        <ul class="plist">
+          <li>Limpiar polvo mensualmente</li>
+          <li>Repasta térmica cada 2 años</li>
+          <li>Curva de ventiladores custom</li>
+          <li>CPU bajo 80 °C siempre</li>
+          <li>GPU bajo 85 °C siempre</li>
+        </ul>
+      </div>
+
+      <div class="pc" data-r>
+        <span class="pico">💾</span>
+        <h3 class="ptitle">RAM y Almacenamiento</h3>
+        <p class="pdesc">RAM mal configurada = hasta 15% menos FPS. Activa XMP/EXPO hoy.</p>
+        <ul class="plist">
+          <li>Activar XMP/EXPO en BIOS</li>
+          <li>RAM en dual channel</li>
+          <li>Juegos en SSD NVMe</li>
+          <li>Desfragmentar HDD mensual</li>
+          <li>Pagefile automático en SSD</li>
+        </ul>
+      </div>
+
+      <div class="pc" data-r>
+        <span class="pico">🌐</span>
+        <h3 class="ptitle">Red y Latencia Online</h3>
+        <p class="pdesc">Reduce ping y elimina packet loss para dejar de morir por lag.</p>
+        <ul class="plist">
+          <li>Cable Ethernet, nunca WiFi</li>
+          <li>QoS activado en el router</li>
+          <li>DNS 1.1.1.1 (Cloudflare)</li>
+          <li>Cerrar apps en segundo plano</li>
+          <li>Servidor más cercano siempre</li>
+        </ul>
+      </div>
+
+      <div class="pc" data-r>
+        <span class="pico">🔧</span>
+        <h3 class="ptitle">BIOS y CPU Tuning</h3>
+        <p class="pdesc">Ajustes avanzados de BIOS para sacar el máximo de tu procesador.</p>
+        <ul class="plist">
+          <li>Activar Precision Boost / Turbo</li>
+          <li>Actualizar BIOS a última versión</li>
+          <li>Habilitar Resizable BAR</li>
+          <li>Fast Boot activado</li>
+          <li>Voltajes estables y seguros</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="ndiv"></div>
+
+<!-- ================================================
+     PRO TIPS
+     ================================================ -->
+<section id="pt" class="sbg">
+  <div class="sbg-img"></div>
+  <div class="sbg-ov"></div>
+  <div class="container">
+
+    <div class="slabel">Pro Tips</div>
+    <h2 class="stitle">Técnicas de los<br><span>Mejores del Mundo</span></h2>
+    <p class="ssub">Estrategias y configuraciones usadas por pro players en torneos internacionales.</p>
+
+    <div class="tipgrid">
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">🎯</div>
+          <div>
+            <div class="tiptitle">Sensibilidad y DPI</div>
+            <div class="tipg">Valorant · CS2 · Fortnite</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          Los pro players FPS usan entre <strong style="color:var(--pu2)">400–800 DPI</strong> con sens baja.
+          Mayor control y consistencia en duelos. Encuentra tu eDPI ideal.
+          <div class="tipcode">
+            <span class="cm">// Fórmula eDPI</span><br>
+            eDPI = DPI × Sens_in-game<br>
+            <span class="cm">// Rango pro: 200–800</span><br>
+            Ej: 400 × 0.35 = <span class="v">140 eDPI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">⚡</div>
+          <div>
+            <div class="tiptitle">Crosshair Placement</div>
+            <div class="tipg">CS2 · Valorant</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          El 80% de las muertes es por mal <em style="color:var(--pu2)">crosshair placement</em>, no por mal aim.
+          Mantén la mira siempre a altura de cabeza para necesitar solo un micro-ajuste para matar.
+        </div>
+      </div>
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">🧠</div>
+          <div>
+            <div class="tiptitle">Rotaciones en BR</div>
+            <div class="tipg">Fortnite · Warzone</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          En BR ganar no es matar más, es moverse mejor. Llega al círculo con tiempo,
+          busca altura y deja que otros peleen. Entra como tercero y limpia lo que sobra.
+        </div>
+      </div>
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">🗺️</div>
+          <div>
+            <div class="tiptitle">Game Sense y Mapa</div>
+            <div class="tipg">League · Valorant</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          Mira el minimapa <strong style="color:var(--pu2)">cada 5 segundos</strong>.
+          Saber dónde está el enemigo vale más que cualquier mecánica.
+          El game sense diferencia a los buenos de los mejores.
+        </div>
+      </div>
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">🏋️</div>
+          <div>
+            <div class="tiptitle">Rutina de Calentamiento</div>
+            <div class="tipg">Todos los juegos</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          Antes de ranked, 15–20 min en aim trainer o deathmatch libre.
+          Tu mecánica mejora un <strong style="color:var(--pu2)">25–35%</strong>
+          si juegas calentado vs en frío. Es como el deporte.
+        </div>
+      </div>
+
+      <div class="tip" data-r>
+        <div class="tiphd">
+          <div class="tipico">💬</div>
+          <div>
+            <div class="tiptitle">Comunicación Efectiva</div>
+            <div class="tipg">Todos los FPS</div>
+          </div>
+        </div>
+        <div class="tipbody">
+          Calls cortas y precisas: <em style="color:var(--pu2)">"A site, 2 rifles, flash"</em>.
+          Los equipos que se comunican bien ganan aunque tengan menos mecánica individual.
+          Silencia lo tóxico.
+        </div>
+      </div>
+
+    </div><!-- /tipgrid -->
+  </div>
+</section>
+
+<div class="ndiv"></div>
+
+<!-- ================================================
+     CTA
+     ================================================ -->
+<section id="cta">
+  <div id="cta-bg"></div>
+  <div id="cta-ov"></div>
+  <div class="container">
+    <div class="ctatitle">¿Listo Para<br><em>Dominarlo Todo?</em></div>
+    <p class="ctasub">Únete a GamerHub y accede a todos los tutoriales, guías pro y actualizaciones semanales.</p>
+    <div class="ctabtns">
+      <a href="#hw" class="bglow">⚡ Empezar Ahora — Es Gratis</a>
+      <a href="#gm" class="boutline">Ver Todos los Juegos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     FOOTER
+     ================================================ -->
+<footer>
+  <div class="container">
+    <div class="fgrid">
+      <div>
+        <span class="fbrand">GAMERHUB</span>
+        <p class="fdesc">Tu plataforma definitiva para aprender, mejorar y dominar el mundo del gaming. Hardware, software y estrategia.</p>
+      </div>
+      <div>
+        <div class="fct">Tutoriales</div>
+        <ul class="flinks">
+          <li><a href="#hw">Montar Torre</a></li>
+          <li><a href="#hw">Instalar Mandos</a></li>
+          <li><a href="#hw">Setup Mouse</a></li>
+          <li><a href="#hw">Refrigeración</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="fct">Juegos</div>
+        <ul class="flinks">
+          <li><a href="https://www.fortnite.com"          target="_blank">Fortnite ↗</a></li>
+          <li><a href="https://www.leagueoflegends.com"   target="_blank">League of Legends ↗</a></li>
+          <li><a href="https://playvalorant.com"          target="_blank">Valorant ↗</a></li>
+          <li><a href="https://store.steampowered.com/app/730" target="_blank">CS2 ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="fct">Comunidad</div>
+        <ul class="flinks">
+          <li><a href="#">Discord</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Twitch</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2025 GamerHub — Todos los derechos reservados</span>
+      <span style="color:var(--pu4)">Hecho con 💜 para gamers</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Script -->
+<script src="js/java.js"></script>
+</body>
+</html>
